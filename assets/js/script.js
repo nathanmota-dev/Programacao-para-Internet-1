@@ -169,6 +169,18 @@ function getSelectedInterests() {
     return selectedInterests.join(', ');
 }
 
+//notificação - Badge Bootstrap
+var notificacoes = 0;
+
+function adicionarNotificacao() {
+    notificacoes++;
+    document.getElementById('badgeNotificacao').innerText = notificacoes;
+}
+
+// Exemplo: adicionar uma notificação quando a página carrega
+adicionarNotificacao();
+
+
 /*function passwordValidate() {
     if (campos[3].value.length < 8) {
         setError(3);

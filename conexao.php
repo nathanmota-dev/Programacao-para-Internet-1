@@ -1,10 +1,10 @@
 <?php
 function mysqlConnect()
 {
-    $host = "nathan";
-    $username = "nathanssmota";
-    $password = "*k.n46XHyuAUxC#";
-    $dbname = "PessoaForm";
+    $host = "";
+    $username = "";
+    $password = "";
+    $dbname = "";
     $options = [
         PDO::ATTR_EMULATE_PREPARES => false, // desativa a execução emulada de prepared statements
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, // ativa o modo de erros para lançar exceções

@@ -20,7 +20,7 @@ include 'header.php';
 <body>
 
     <main>
-        <nav aria-label="breadcrumb">
+        <nav class="purple-bg" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page">Projetos</li>
             </ol>
@@ -67,15 +67,16 @@ include 'header.php';
             </div>
         </div>
 
-        <div class="jumbotron p-5 purple-bg ">
-            <h1 class="display-4">Seu site em 1 dia<span class="badge badge-secondary">New</span></h1>
-            <p class="lead">Desevolvemos um projeto onde conseguimos deselvolver seu site em apenas 1 dia. Apenas
-                modelos pré prontos.</p>
+        <div id="notificacoes" class="jumbotron p-5 purple-bg">
+            <h1 class="display-4">Seu site em 1 dia<span class="badge badge-secondary" id="badgeNotificacao"></span>
+            </h1>
+            <p class="lead">Desenvolvemos um projeto onde conseguimos desenvolver seu site em apenas 1 dia. Apenas
+                modelos pré-prontos.</p>
             <hr class="my-4">
-            <p>Clique abaixo para realizar seu orçamento!
-            </p>
+            <p>Clique abaixo para realizar seu orçamento!</p>
             <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Saiba Mais</a>
+                <a id="btnAdicionarNotificacao" class="btn btn-primary btn-lg cor-botao" role="button"
+                    onclick="adicionarNotificacao()">Saiba Mais</a>
             </p>
         </div>
 
@@ -88,7 +89,7 @@ include 'header.php';
                             <h5 class="card-title">Inovação</h5>
                             <p class="card-text">Estamos constantemente explorando novas tecnologias e metodologias para
                                 oferecer soluções inovadoras e alavancar o potencial de nossos clientes.</p>
-                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                            <a href="#" class="btn btn-primary cor-botao">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +101,7 @@ include 'header.php';
                             <p class="card-text">Buscamos continuamente a excelência em tudo o que fazemos, desde a
                                 concepção de produtos até a entrega de serviços, garantindo a satisfação de nossos
                                 clientes.</p>
-                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                            <a href="#" class="btn btn-primary cor-botao">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +113,7 @@ include 'header.php';
                             <p class="card-text">Acreditamos no poder da colaboração e trabalhamos em estreita parceria
                                 com nossos clientes para entender suas necessidades e oferecer soluções personalizadas.
                             </p>
-                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                            <a href="#" class="btn btn-primary cor-botao">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +124,7 @@ include 'header.php';
                             <h5 class="card-title">Confiança</h5>
                             <p class="card-text">Construímos relacionamentos sólidos e duradouros com nossos clientes,
                                 baseados na confiança, integridade e transparência em todas as interações.</p>
-                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                            <a href="#" class="btn btn-primary cor-botao">Saiba mais</a>
                         </div>
                     </div>
                 </div>

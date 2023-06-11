@@ -158,7 +158,7 @@ include 'header.php';
                                             dados</button>
                                         <button type="button" class="btn btn-secondary" onclick="editForm()">Alterar
                                             dados</button>
-                                        <button type="submit" name="submit" class="btn btn-primary"
+                                        <button type="submit" name="submit" class="btn btn-primary cor-botao"
                                             onclick="submitForm()">Enviar
                                             formulário</button>
                                         <span class="span-required">Corriga os erros do formulário</span>

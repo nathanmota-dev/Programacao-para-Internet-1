@@ -82,7 +82,7 @@ include 'header.php';
                                 oferecer soluções inovadoras e alavancar o potencial de nossos clientes</p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-primary btn-sm">Saiba mais</a>
+                            <a href="#" class="btn btn-primary btn-sm cor-botao">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ include 'header.php';
                                 clientes</p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-primary btn-sm color">Saiba mais</a>
+                            <a href="#" class="btn btn-primary btn-sm color cor-botao">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ include 'header.php';
                                 que impulsionem o sucesso mútuo</p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-primary btn-sm">Saiba mais</a>
+                            <a href="#" class="btn btn-primary btn-sm cor-botao">Saiba mais</a>
                         </div>
                     </div>
                 </div>

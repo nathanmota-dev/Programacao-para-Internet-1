@@ -294,8 +294,8 @@ footer {
     display: flex;
     justify-content: center;
     background-color: var(--color-neutral-0);
-    font-size: 0.9;
-    padding: 0.5rem;
+    font-size: 0.9rem;
+    padding: 1.5rem;
     font-weight: 100;
 }
 
@@ -505,6 +505,22 @@ footer {
 
 }
 
+/*@media (min-width: 1065px) and (max-width: 1148px) {
+    .form-image {
+        display: none;
+    }
+
+    .container-register {
+        width: 60%;
+        height: auto;        
+    }
+
+    .form {
+        width: 100%;
+        height: auto;       
+    }
+}*/
+
 @media screen and (max-width: 1064px) {
     .container-register {
         width: 100%;
@@ -540,7 +556,7 @@ footer {
     }
 }
 
-
+/*@media (max-width: 480px) {}*/
 
 .purple-bg {
     background-color: #DCDCDC;
@@ -647,10 +663,6 @@ footer {
     padding: 0px 5px;
 }
 
-/*.input-field input:focus {
-    outline: none;
-}*/
-
 /* Forgot password */
 #forgot_password a {
     text-decoration: none;
@@ -709,7 +721,7 @@ a .color {
 }
 
 .cor-botao {
-    border: none;
-    background-color: var(--color-roxo);
+    border: none !important;
+    background-color: var(--color-roxo) !important;
     border-radius: 5px;
 }
